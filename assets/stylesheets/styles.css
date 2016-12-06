@@ -375,7 +375,8 @@ a:focus {
     position: relative;
   }
   .main-header .logo,
-  .main-header .navbar {
+  .main-header .navbar,
+  .main-header .toggle-mobile {
     width: 100%;
     float: none;
   }
@@ -4979,4 +4980,10 @@ i.fa-dollar {
 .skin-blue .sidebar-menu>li.header{
   color: #4b646f;
   background: #1a2226;
+}
+.main-header .toggle-mobile{
+  padding: 0 15px;
+  text-align: right;
+  line-height: 50px;
+  display: block;
 }
