@@ -5032,3 +5032,9 @@ td.center-table-content{
   text-align: center;
   padding: 40px 10px !important;
 }
+.box-blue {
+  border-top: 3px solid #3E7BE5;
+}
+.box-secondblue {
+  border-top: 3px solid #03A9F4;
+}
