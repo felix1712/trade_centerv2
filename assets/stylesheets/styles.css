@@ -4987,3 +4987,7 @@ i.fa-dollar {
   line-height: 50px;
   display: block;
 }
+.table-responsinve{
+  width: 300px;
+  overflow-x: auto;
+}
