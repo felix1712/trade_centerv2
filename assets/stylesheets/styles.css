@@ -287,6 +287,9 @@ a:focus {
   padding: 0 15px;
   font-weight: 500;
   overflow: hidden;
+  background-color: transparent !important;
+  color:#fff;
+  border-bottom: 0 solid transparent;
 }
 .main-header .logo .logo-lg {
   display: block;
@@ -4927,10 +4930,8 @@ table.text-center th {
   }
 }
 /* Logo and color header */
-.main-header .logo{
-  background-color: none !important;
-  color:#fff;
-  border-bottom: 0 solid transparent;
+.logo-top{
+  height: 85%;
 }
 .main-header .logo:hover{
   background-color: none !important;
@@ -4959,7 +4960,6 @@ i.fa-dollar {
   background: #D5E1F7;
   border-left-color: #3c8dbc;
 }
-
 .sidebar-menu>li.active>a{
   color: #3E7BE5;
   background: #D5E1F7;
@@ -4985,7 +4985,7 @@ i.fa-dollar {
   background: #E0E0E0;
 }
 .main-header .toggle-mobile{
-  padding: 0 19px;
+  padding: 0px 19px;
   text-align: right;
   line-height: 50px;
   display: block;
@@ -4996,21 +4996,21 @@ i.fa-dollar {
   width: 300px;
   overflow-x: auto;
 }
-.nav > li > a{
+.nav > li.tab-border > a{
   color: #616161 !important;
   border: 0;
   border-bottom: 3px solid transparent !important;
 }
-.nav > li > a:hover{
+.nav > li.tab-border > a:hover{
   color: #3E7BE5 !important;
   background-color: transparent; !important;
   border: 0;
   border-bottom-color: #9E9E9E !important;
 }
-.nav-tabs>li.active>a, 
-.nav-tabs>li.active>a:focus, 
-.nav-tabs>li.active>a:active, 
-.nav-tabs>li.active>a:hover{
+.nav-tabs>li.active.tab-border>a, 
+.nav-tabs>li.active.tab-border>a:focus, 
+.nav-tabs>li.active.tab-border>a:active, 
+.nav-tabs>li.active.tab-border>a:hover{
   color: #3E7BE5 !important;
   background-color: transparent;
   border: 0;
