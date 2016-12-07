@@ -4961,7 +4961,7 @@ i.fa-dollar {
 }
 
 .sidebar-menu>li.active>a{
-  color: #3E7BE5; /* jadi biru */
+  color: #3E7BE5;
   background: #D5E1F7;
   border-left-color: #3c8dbc;
 }
@@ -4991,7 +4991,36 @@ i.fa-dollar {
   display: block;
   background-color: #3E7BE5 !important;
 }
+/* table css */
 .table-responsinve{
   width: 300px;
   overflow-x: auto;
+}
+.nav > li > a{
+  color: #616161 !important;
+  border: 0;
+  border-bottom: 3px solid transparent !important;
+}
+.nav > li > a:hover{
+  color: #3E7BE5 !important;
+  background-color: transparent; !important;
+  border: 0;
+  border-bottom-color: #9E9E9E !important;
+}
+.nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:active, 
+.nav-tabs>li.active>a:hover{
+  color: #3E7BE5 !important;
+  background-color: transparent;
+  border: 0;
+  border-bottom-color: #616161 !important;
+}
+.box.box-solid.box-blue > .box-header {
+  color: #fff;
+  background-color: #3E7BE5;
+}
+.box.box-solid.box-secondblue > .box-header{
+  color: #fff;
+  background-color: #03A9F4;
 }
