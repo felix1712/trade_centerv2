@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
 
 body {
@@ -10,7 +11,7 @@ body {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto','Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   overflow-x: hidden;
   overflow-y: auto;
@@ -151,7 +152,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto','Source Sans Pro', sans-serif;
 }
 /* General Links */
 a {
@@ -184,9 +185,7 @@ a:focus {
   z-index: 1030;
 }
 .main-header .navbar {
-  background: #00d2ff; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #00d2ff , #3E7BE5); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #00d2ff , #3E7BE5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #3E7BE5;
   margin-bottom: 0;
   margin-left: 49px;
   border: none;
@@ -4943,7 +4942,7 @@ i.fa-dollar {
   margin-right: 6px; 
 }
 .main-header li.user-header{
-  background-color: #00d2ff !important;
+  background-color: #3E7BE5 !important;
 }
 .sidebar-menu>li>.treeview-menu{
   margin: 0 1px;
@@ -4953,7 +4952,7 @@ i.fa-dollar {
   width: 230px;
 }
 .main-header .navbar .nav>li>a{
-  color:#616161;
+  color:#CFD8DC;
 }
 .sidebar-menu>li:hover>a{
   color: #3E7BE5;
@@ -5003,7 +5002,7 @@ i.fa-dollar {
 }
 .nav > li.tab-border > a:hover{
   color: #3E7BE5 !important;
-  background-color: transparent; !important;
+  background-color: transparent !important;
   border: 0;
   border-bottom-color: #9E9E9E !important;
 }
@@ -5024,6 +5023,9 @@ i.fa-dollar {
   color: #fff;
   background-color: #03A9F4;
 }
+.vertical-middle td{
+  vertical-align: middle !important;
+}
 /* Padding Space */
 .space-padding{
   padding-bottom: 100px;
@@ -5037,4 +5039,29 @@ td.center-table-content{
 }
 .box-secondblue {
   border-top: 3px solid #03A9F4;
+}
+td > a.table-link {
+  color: #444;
+}
+td > a.table-link:hover {
+  color: #337ab7;
+}
+
+/* custom css */
+.bill-print{
+  background-color: #EEEEEE;
+}
+.space-row-5{
+  padding: 5px;
+}
+.value{
+  font-weight: 600;
+}
+.inputWarning{
+  border-color: #f39c12;
+  box-shadow: none;
+}
+.inputDanger{
+  border-color: #dd4b39;
+  box-shadow: none;
 }
